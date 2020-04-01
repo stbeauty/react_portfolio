@@ -1,0 +1,85 @@
+.skillsComponent{
+    margin: 150px 0 200px 30px;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(255, 188, 2);
+}
+.skillsComponent > h1 {
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+
+.skill{
+    background-color: rgb(255, 188, 2);
+    margin: 3% 1.5%;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    
+}
+.listSkills{
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+    margin: 2% 8%;
+    text-align: center;
+}
+
+.skill > img{
+    width: 55px;
+    height: 55px;
+    margin-top: 20%;
+}
+.listSkills > p{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 10% 2.5%;
+    display: none;
+} 
+@media only screen and (min-width: 1024px) and (max-width: 1024px) { 
+    .listSkills > p{
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 14%;
+        border:0;
+        color: white;
+    } 
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .listSkills{
+        margin-left: 18%;
+    }
+    .listSkills > p{
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 24%;
+        border:0;
+        color: white;
+    } 
+ }
+
+@media only screen and (max-width: 767px) {
+    .skillsComponent{
+        width: 90%;
+    }
+    .listSkills{
+        display: block;
+        margin: 1%;
+    }
+    .listSkills > p{
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 44%;
+        border:0;
+        color: white;
+    } 
+    .skill{
+        width: 85px;
+        height: 75px;
+    }
+    .skill > img{
+        margin-top: 15%;
+    }
+ }

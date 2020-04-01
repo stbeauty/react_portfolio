@@ -1,0 +1,63 @@
+.Contact{
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
+    text-align: left;
+    border: 0;
+    height: 500px;
+    overflow: hidden;
+    margin: 150px 0 0 30px;
+    width: 100%;
+    color: rgb(255, 188, 2);
+}
+.Contact > div {
+    margin-left: 15%;
+}
+.Contact > h1 {
+    margin-left: 5%;
+  }
+
+.contactCard{
+    font-family:  'Didact Gothic', sans-serif;
+    margin: 40px 0px 40px 10%;
+    display: inline-block;
+}
+.contactCard img {
+    background-color: rgb(255, 188, 2);
+    border-radius:250px;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+.contactCard > div {
+    border-radius:250px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.contactCard > div:hover {
+    background-color:  rgba(155, 155, 155, 0.39);
+    box-shadow: 0 0 15px rgb(168, 168, 168);
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    
+    .Contact{
+        width: 90%;
+    }
+   
+ }
+
+@media only screen and (max-width: 767px) {
+    .Contact{
+        margin: 0;
+    }
+    .Contact > h1{
+        margin-left: 10%;
+    }
+    .contactCard{
+        margin: 7px 0 0 25%;
+    }
+  
+}
